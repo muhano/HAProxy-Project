@@ -15,5 +15,5 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-EXPOSE 9003
-CMD [ "node", "server3.js" ]
+# EXPOSE 9003
+# CMD [ "node", "server3.js" ]
