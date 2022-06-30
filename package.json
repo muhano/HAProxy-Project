@@ -4,7 +4,8 @@
   "description": "Project for HAProxy implementation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server1.js && node server2.js && node server3.js"
   },
   "repository": {
     "type": "git",
