@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.send(`Server Production on port ${port}`)
 })
 
-app.post('/dc/int/cash', (req, res) => {
+app.post('/dc/int/cash/*', (req, res) => {
   res.send(`POST to Production server`)
 })
 

@@ -10,7 +10,7 @@ app.get('/inquiry*', (req, res) => {
   res.send(`HAProxy routing  to Server 3 on port ${port}`)
 })
 
-app.post('/uat/int/cash', (req, res) => {
+app.post('/uat/int/cash/*', (req, res) => {
   res.send('POST to UAT server')
 })
 
